@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public PlayerScore playerScore;
+    public IntScore playerScore;
 
     void Start()
     {
