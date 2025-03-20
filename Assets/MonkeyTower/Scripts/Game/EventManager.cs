@@ -8,6 +8,7 @@ public class EventManager : MonoBehaviour
 
     private void Awake()
     {
+        GameStart.Invoke();
         if (Instance == null)
         {
             Instance = this;
