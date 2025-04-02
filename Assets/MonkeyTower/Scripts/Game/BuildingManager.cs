@@ -6,7 +6,8 @@ using UnityEngine;
 public class BuildingManager : MonoBehaviour
 {
     public List<GameObject> buildings;
-    public float moveSpeed = 2.0f;
+    public FloatObject gameSpeed;
+    //public float moveSpeed = 2.0f;
     public float buildingHeight = 10.0f; // Adjust based on your building height
     private float cameraHeight;
 
@@ -32,7 +33,7 @@ public class BuildingManager : MonoBehaviour
     {
         foreach (GameObject building in buildings)
         {
-            building.transform.Translate(Vector3.down * moveSpeed * Time.deltaTime);
+            building.transform.Translate(Vector3.down * gameSpeed.value * Time.deltaTime);
         }
     }
 

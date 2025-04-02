@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c1ca093903a8429cb053903c8d6ba37, type: 3}
-  m_Name: ScoreManagerSO
+  m_Script: {fileID: 11500000, guid: 3dfe98311e348478fa352ffce9538ee4, type: 3}
+  m_Name: GameSpeed
   m_EditorClassIdentifier: 
-  score: 32
-  comboCount: 0
+  value: 3
+  defaultValue: 3
+  maxValue: 25
+  minValue: 3
+  multiplierValue: 1.05
