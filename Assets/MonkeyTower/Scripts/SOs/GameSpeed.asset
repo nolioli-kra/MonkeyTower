@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dfe98311e348478fa352ffce9538ee4, type: 3}
   m_Name: GameSpeed
   m_EditorClassIdentifier: 
-  value: 3
+  value: 10.282759
   defaultValue: 3
   maxValue: 25
   minValue: 3
-  multiplierValue: 1.05
+  multiplierValue: 1.02

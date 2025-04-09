@@ -7,6 +7,7 @@ public class ScoreSpeedManager : MonoBehaviour
 
     public int minComboThreshold = 10;
     public int maxComboThreshold = 50;
+    public int speedMultiplier;
 
     void Start()
     {
